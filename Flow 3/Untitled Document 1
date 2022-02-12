@@ -1,0 +1,49 @@
+[
+    {
+        "id": "8b64e3e9bca71180",
+        "type": "mqtt in",
+        "z": "d6b4a72838f52c5c",
+        "name": "",
+        "topic": "sic/flow3/temp",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "8c72131d514d2834",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 150,
+        "y": 340,
+        "wires": [
+            [
+                "dbd48d880dfd01ac"
+            ]
+        ]
+    },
+    {
+        "id": "8c72131d514d2834",
+        "type": "mqtt-broker",
+        "name": "HiveMQ",
+        "broker": "3.126.191.185",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    }
+]
